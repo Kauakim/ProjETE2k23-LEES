@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+
+    <head> 
+        <link rel="stylesheet" type="text/css" href="css/loginCss.css">
+        <link rel="stylesheet" href="http://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tela de Login</title>
+    </head> 
+  
+  
+    <body>
+        <div class="container">
+          <h2> Login </h2>
+          <div class= "input-field">
+            <input type="text" id="Usuario" placeholder="Nome do usuário">
+            <label for="nome">Nome:</label> 
+          </div>
+                              
+          <div class= "input-field">
+            <input type="password" id="Senha" placeholder="Senha">
+            <label for="nome">Senha:</label> 
+            <i class="fa fa-eye" aria-hidden="true"></i>
+          </div>
+          
+          <div class="center">
+            <button id="Registrar" class="BotaoVerdadeiro">Registrar</button>
+          </div>
+
+          <div class="center">
+            <button id="Enter" class="BotaoVerdadeiro">Entrar</button>
+          </div>
+
+          <div class="center">
+            <button id="Voltar" class="BotaoVerdadeiro">Voltar</button>
+          </div>
+                
+          <div class="links">
+            <a href="" id="EsqueceuSenha"><p>Esqueceu sua senha?</p></a>
+          </div>
+        </div>
+
+        <script type="module" src="./src/LogicaLogin.mjs"></script>
+
+        <script>
+            let btn = document.querySelector(".fa-eye")
+
+            btn.addEventListener("click", ()=>{
+            let inputSenha = document.querySelector("#Senha")
+            
+            if(inputSenha.getAttribute("type") == "password"){
+                inputSenha.setAttribute("type", "text")
+            }
+            else{
+                inputSenha.setAttribute("type", "password")
+            }
+            })
+        </script>
+    </body>
+</html>

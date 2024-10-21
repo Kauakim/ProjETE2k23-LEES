@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head> 
+        <link rel="stylesheet" type="text/css" href="css/graficosCss.css">
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.00"> 
+        <title>LEES</title> 
+    </head>
+
+    <body>  
+        <h1 class="Titulo"> 
+        <span class="Letra1">Estado das Lixeiras </span> 
+        </h1> 
+
+        <div class="container">
+            <div>
+                <img src="https://i.pinimg.com/474x/de/10/1e/de101e56bda199b6cd160bb5d18fee1e.jpg" style= "margin-left: 10px" alt="indeterminado" class="image">
+                <p class="subtitulo" style="margin-left: 15px;">Indeterminado</p>
+                <canvas id="grafico5" width="180" height="20" style="border:1px solid #000000;"></canvas>
+                <div id="Texto5"></div>
+            </div>
+
+            <div>
+                <img src="https://i.pinimg.com/474x/02/d1/bb/02d1bb22f8fd44a4901e550efd755a7a.jpg" style= "margin-left: 10px" alt="metal" class="image">
+                <p class="subtitulo" style="margin-left: 80px;">Metal</p>
+                <canvas id="grafico4" width="180" height="20" style="border:1px solid #000000;"></canvas>
+                <div id="Texto4"></div>
+            </div>
+            
+            <div>
+                <img src="https://i.pinimg.com/474x/37/10/1c/37101c67bb07b4df690a1ecd3f690f7d.jpg" style= "margin-left: 10px" alt="vidro" class="image">
+                <p class="subtitulo" style="margin-left: 80px;">Vidro</p>
+                <canvas id="grafico3" pincel.fillStyle = "rgb(0,0,0)" width="180" height="20" style="border:1px solid #000000;"></canvas>
+                <div id="Texto3"></div>
+            </div>
+
+            <div>
+                <img src="https://i.pinimg.com/474x/a5/f8/1b/a5f81b6bba6e4c95c3608955ebfe3f99.jpg" style= "margin-left: 10px" alt="plástico" class="image">
+                <p class="subtitulo" style="margin-left: 55px;">Plástico</p>
+                <canvas id="grafico2" width="180" height="20"  style="border:1px solid #000000;"></canvas>    
+                <div id="Texto2"></div>
+            </div>
+
+            <div>
+                <img src="https://i.pinimg.com/474x/19/95/c1/1995c185df73397fef203bcd0a2f72ba.jpg" alt="papel" class="image">
+                <p class="subtitulo" style="margin-left: 60px;">Papel</p>
+                <canvas id="grafico1" width="180" height="20" style="border:1px solid #000000 "></canvas> 
+                <div id="Texto1"></div>
+            </div>
+        </div>
+
+        <section id="BotaoPaginaGraficos">
+            <div class="center">
+                <button class="BotaoVerdadeiro" id="BotaoPaginaGraficos"> Voltar  para  a  página  inicial</button>
+            </div>
+        </section>
+
+        <script type="module" src="./src/LogicaGrafico.mjs"></script>
+    </body>
+ </html>
