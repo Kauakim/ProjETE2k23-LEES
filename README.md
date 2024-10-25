@@ -1,1 +1,2 @@
-# ProjETE2k23-LEES
+# LEES - Lixeira Eletrônica Econômica Sustentável
+
