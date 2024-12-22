@@ -25,18 +25,18 @@ Para saber mais sobre o projeto, acesse o link do diário de bordo da LEES, docu
 ### Hardware:
 - Processamento: ESP-32
 - Sensoriamento:
-  Sensores capacitivos feitos a partir de materiais recicláveis, desenvolvidos pelo grupo
-  Sensores ultrassônicos
-  Sensores infravermelho
+  - Sensores capacitivos feitos a partir de materiais recicláveis, desenvolvidos pelo grupo
+  - Sensores ultrassônicos
+  - Sensores infravermelho
 - Atuadores: Motores de baixa rotação reciclados de sistemas de vidro elétrico de carros
 - Alimentação: Fonte ATX
 
 ### Linguagens e Bibliotecas:
 - Linguagens de Programação: Python, C++, HTML5, CSS3, JavaScript
 - Bibliotecas e Frameworks:
-  IA: Scikit-learn
-  Análise de Dados: Pandas
-  Banco de Dados: Firebase
+  - IA: Scikit-learn
+  - Análise de Dados: Pandas
+  - Banco de Dados: Firebase
 - Protocolos e Tecnologias: HTTP 
 
 ---
